@@ -1,5 +1,7 @@
 package arrays;
 
+
+
 import java.util.*;
 
 public class ArrayIntro {
@@ -17,7 +19,7 @@ public class ArrayIntro {
 		
 		int age[] = {2,3,4,5,9,8};
 		
-		int marks[] = new int[5];
+//		int marks[] = new int[5];
 		
 		Scanner sc = new Scanner(System.in);
 		
@@ -28,6 +30,8 @@ public class ArrayIntro {
 		/*
 		 * System.out.print(" "); for(int i =0;i<6;i++) { System.out.print(age[i]); }
 		 */
+		System.out.print(Math.abs(-5));
+		sc.close();
 
 	}
 

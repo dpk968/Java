@@ -1,5 +1,7 @@
 package strings;
 
+import java.util.Scanner;
+
 public class StringIntro
 {
     public static void main(final String[] args) {
@@ -29,5 +31,34 @@ public class StringIntro
         final String s = "       dev                ";
         System.out.println(s.trim());
         System.out.println(s);
+        
+        /* check reverse of a string  */
+        
+        
+        Scanner sc=new Scanner(System.in);
+        String A=sc.next();
+       
+        
+        String B = new StringBuilder(A).reverse().toString();
+        
+        if(A.equals(B))
+        {
+            System.out.println("Yes");
+        }
+        else
+        {
+            System.out.println("No");
+        }
+        sc.close();
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
     }
 }
