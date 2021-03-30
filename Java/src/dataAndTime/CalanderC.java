@@ -18,9 +18,7 @@ class Result {
 public class CalanderC {
     public static void main(String[] args){
     	
-    	Result r =new Result();
-    	
-    	System.out.println(r.findDay(03,30,2021));
+    	System.out.println(Result.findDay(03,30,2021));
         
     }
 }

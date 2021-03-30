@@ -21,6 +21,7 @@ public class AvaerageMarksOfStudents {
         }
         avrg /= n;
         System.out.println("the avrg :" + avrg);
+        sc.close();
 
 	}
 

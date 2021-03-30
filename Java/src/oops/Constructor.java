@@ -7,7 +7,7 @@ public class Constructor
     }
     
     public static void main(final String[] args) {
-        final Constructor obj = new Constructor();
+        //final Constructor obj = new Constructor();
         final Vehicles car = new Vehicles();
         System.out.println(String.valueOf(car.wheels) + " wheels");
         final Vehicles scooty = new Vehicles(2, "grey");

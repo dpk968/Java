@@ -22,6 +22,7 @@ public class hackkerrank extends a {
 		
 		try
 		{
+			@SuppressWarnings("deprecation")
 			Float f1 = new Float("3.0");
 			int x = f1.intValue();
 			byte b = f1.byteValue();

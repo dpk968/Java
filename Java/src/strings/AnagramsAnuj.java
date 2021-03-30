@@ -10,7 +10,9 @@ public class AnagramsAnuj
         char[] charArray;
         for (int length = (charArray = a.toCharArray()).length, j = 0; j < length; ++j) {
             final int index;
-            final char c = (char)(index = charArray[j]);
+            //final char c = (char)(index = charArray[j]);
+            index = charArray[j];
+            
             final int[] array = al;
             final int n = index;
             ++array[n];
@@ -18,7 +20,8 @@ public class AnagramsAnuj
         char[] charArray2;
         for (int length2 = (charArray2 = b.toCharArray()).length, k = 0; k < length2; ++k) {
             final int index;
-            final char c = (char)(index = charArray2[k]);
+            //final char c = (char)(index = charArray2[k]);
+            index = charArray2[k];
             final int[] array2 = al;
             final int n2 = index;
             --array2[n2];

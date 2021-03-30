@@ -17,5 +17,6 @@ public class method
         final int num = sc.nextInt();
         final int y = fact(num);
         System.out.println("factorial of given number is " + y);
+        sc.close();
     }
 }

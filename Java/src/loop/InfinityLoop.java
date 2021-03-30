@@ -11,5 +11,6 @@ public class InfinityLoop
             System.out.println("enter any no");
             n = sc.nextInt();
         } while (n >= 0);
+        sc.close();
     }
 }

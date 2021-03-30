@@ -7,6 +7,8 @@ public class MainClass
 {
     public static void main(final String[] args) {
         final Student obj = new Student("tom");
-        final Teacher techer = new Teacher();
+        final Teacher teacher = new Teacher("Hem");
+        obj.getName();
+        teacher.getName();
     }
 }

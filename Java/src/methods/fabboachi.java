@@ -24,5 +24,6 @@ public class fabboachi
             final int y = fabb(i);
             System.out.print(String.valueOf(y) + " ");
         }
+        sc.close();
     }
 }

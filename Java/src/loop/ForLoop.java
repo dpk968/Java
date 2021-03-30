@@ -13,5 +13,6 @@ public class ForLoop
             fact *= i;
         }
         System.out.println("factorial of " + n + " is: " + fact);
+        sc.close();
     }
 }
