@@ -5,11 +5,13 @@ import java.util.*;
 
 public class Frequency {
 	
-	public static void checkFrequency(int[] ar,int n)
+	public static void checkFrequency(String s)
 	{
+		int n=s.length();
 		boolean[] visited = new boolean[n];
 		
 		int count;
+		char[] ar = s.toCharArray();
 		for(int i=0;i<n;i++)
 		{
 			if(visited[i])
@@ -36,15 +38,12 @@ public class Frequency {
 	public static void main(String[] args) {
 		
 		Scanner sc= new Scanner(System.in);
-		System.out.println("Enter nu of elements");
-		int n = sc.nextInt();
-		int[] ar = new int[n];
-		for(int i=0;i<n;i++)
-		{
-			ar[i]=sc.nextInt();
-		}
+//		System.out.println("Enter nu of elements");
+//		int n = sc.nextInt();
+		String s = sc.next();
 		
-		checkFrequency(ar,n);
+		
+		checkFrequency(s);
 		sc.close();
 		
 

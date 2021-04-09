@@ -3,9 +3,9 @@ package strings;
 public class Anagram
 {
     public static void main(final String[] args) {
-        int count = 1;
+        int count = 0;
         final String a = "cat";
-        final String b = "act";
+        final String b = "acct";
         for (int i = 0; i < a.length(); ++i) {
             final char t = a.charAt(i);
             for (int j = 0; j < b.length(); ++j) {
